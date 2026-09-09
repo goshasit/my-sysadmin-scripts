@@ -13,7 +13,7 @@ if ! command -v df >/dev/null 2>&1; then
 	exit 1
 fi
 
-if ! cmmand -v uptime >/dev/null 2>&1; then
+if ! command -v uptime >/dev/null 2>&1; then
 	echo "Error: команда uptime не найдена"
 	exit 1
 fi
@@ -35,7 +35,7 @@ do
 	df -h >> "$LOG_FILE"
 	echo "" >> "$LOG_FILE"
 
-	echo "=== UPTIME ==="
+	echo "=== UPTIME ===" >> "$LOG_FILE"
 	uptime >> "$LOG_FILE"
 	echo "" >> "$LOG_FILE"
 
