@@ -33,7 +33,7 @@
                     | Docker my-app |
                     |               |
                     |   script.sh   |
-                    | Python HTTP    |
+                    | Python HTTP   | 
                     |    server     |
                     +-------+-------+
                             |
