@@ -1,1 +1,4 @@
 monitor.log
+*.key
+*.pem
+nginx/ssl/
